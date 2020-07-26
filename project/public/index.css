@@ -1,0 +1,65 @@
+:root {
+  --sgr: #20647b; /* Sea Green */
+  --dsg: #96ccad; /* Dark Sea Green */
+  --pgr: #d1eab6; /* Pale Goldenrod */
+  --mbl: #081d26; /* Midnight Blue */
+  --nbl: #052d53; /* Navy Blue */
+
+  --dgr: #2f2f2f; /* Dark Gray */
+
+  --rob: "Roboto", sans-serif; 
+}
+
+body {
+  background-color: var(--dgr);
+  font-family: var(--rob);
+  margin: 0;
+}
+
+.color-box {
+  height: 1em;
+  margin: 1em;
+  width: 3em;
+}
+
+#one {
+  background-color: var(--sgr);
+  margin-bottom: 0;
+}
+#two {
+  background-color: var(--dsg);
+  margin: 0 1em;
+}
+#three {
+  background-color: var(--pgr);
+  margin: 0 1em;
+}
+#four {
+  background-color: var(--mbl);
+  margin: 0 1em;
+}
+#five {
+  background-color: var(--nbl);
+  margin-top: 0;
+}
+
+.header {
+  align-items: center;
+  background-color: var(--pgr);
+  display: grid;
+  height: 3.5em;
+  width: 100%;
+}
+
+.header__title {
+  font-size: 2em;
+  color: var(--mbl);
+  margin: 0;
+  margin-left: 1em;
+  justify-self: start;
+}
+
+.body {
+  display: grid;
+  place-items: center;
+}
